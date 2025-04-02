@@ -58,6 +58,11 @@ table, th, td {
     border-collapse: collapse;
   }
 
-th, td {
-    background-color:#FFFFE0;
+tbody td {
+    padding: 30px;
+  }
+  
+tbody tr:nth-child(odd) {
+    background-color: #FFFFE0;
+    color: #fff;
   }
