@@ -57,11 +57,7 @@ table, th, td {
     border: 1px solid white;
     border-collapse: collapse;
   }
-
-tbody td {
-    padding: 30px;
-  }
-  
+ 
 tbody tr:nth-child(odd) {
     background-color: #FFFFE0;
     color: #fff;
