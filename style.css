@@ -45,7 +45,12 @@ ul, ol {
     padding-left: 20px;
 }
 
-/* All links should be blue */
+/* All text should be black by default */
+body {
+    color: #000;
+}
+
+/* Only link text should be blue */
 a {
     color: #00539F;
     text-decoration: none;
@@ -61,7 +66,6 @@ td {
     width: 200px;
     border: solid 1px green;
     height: 100%;
-    color: #000;
 }
 
 tbody tr:nth-child(odd) {
