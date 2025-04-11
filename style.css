@@ -41,15 +41,14 @@ p, li {
     color: #000;
 }
 
-ul {
+ul, ol {
     padding-left: 20px;
 }
 
-/* Base link styling - all links are non-clickable and black by default */
+/* All links should be blue */
 a {
-    color: #000;
+    color: #00539F;
     text-decoration: none;
-    pointer-events: none;
 }
 
 /* Table styling */
@@ -73,15 +72,13 @@ tbody tr:nth-child(even) {
     background-color: #D3D3D3;
 }
 
-/* Make only lecture links clickable, blue, and full-width */
+/* Make lecture links full-width */
 td a[href*="dropbox.com"] {
-    pointer-events: auto;
     display: block;
     height: 100%;
     width: 100%;
     padding: 8px;
     box-sizing: border-box;
-    color: #00539F;
 }
 
 td a[href*="dropbox.com"]:hover {
